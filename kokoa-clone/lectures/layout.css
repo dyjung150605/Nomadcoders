@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  font: bold 30px "Fira Sans", Times New Roman;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+}
+.father {
+  margin: 15px 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top {
+  height: 20px;
+  width: 150px;
+  background-color: teal;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 150px;
+}
+.bottom {
+  height: 150px;
+  width: 150px;
+  background-color: teal;
+}
+.tomato {
+  background-color: tomato;
+}
+.teal {
+  background-color: teal;
+}
+.burlywood {
+  background-color: burlywood;
+}
+.thistle {
+  background-color: thistle;
+}
+.white {
+  background-color: white;
+}
+.font1 {
+  font: bold 20px "Fira Sans", Times New Roman;
+  margin: 0px 10px;
+}
+.font2 {
+  font: bold 15px "Fira Sans", Times New Roman;
+  margin: 0px 10px;
+}

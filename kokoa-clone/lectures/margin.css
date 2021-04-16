@@ -1,0 +1,40 @@
+html {
+  background-color: white;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: tomato;
+  width: 600px;
+  height: 400px;
+}
+#outterbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+.tealbox1 {
+  /* display: block; */
+  background-color: teal;
+  border: 2px solid white;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.tealbox2 {
+  /* display: block; */
+  background-color: teal;
+  border: 2px dotted white;
+  width: 160px;
+  height: 40px;
+  margin: 10px;
+}
